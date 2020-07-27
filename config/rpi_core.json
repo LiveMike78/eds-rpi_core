@@ -1,0 +1,16 @@
+[{
+    "id": "rpi_core",
+    "classification": "dynamic",
+    "type": "object",
+    "properties": {
+        "Timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "isindex": true
+        },
+        "Temperature": {
+            "type": ["number", "null"],
+            "format": "float32"
+        }
+    }
+}]
